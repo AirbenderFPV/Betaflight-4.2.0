@@ -52,23 +52,13 @@ Para la actualización de firmware de los ESC o 4in1 visita:
 
 Esta pantalla nos ayuda con la gestión de el voltage y la corriente de nuestro quad.  
 
-- Valores por defecto  
+- Valores por defecto, no editar   
 El voltaje mínimo de celda nunca debe bajar de 3.3v.  
 Si bajamos el voltaje de una celda por debajo de 3.3v podemos dañar la Lipo.   
 El voltaje de aviso por defecto se configura en 3.5v.  
 Este voltaje es el que determina en el OSD cuando aparece el aviso de _LOW VOLTAGE_    
 
-Las baterias 1s  
-Voltaje min: 3.30v (Si bajamos el voltaje por debajo podemos dañar la Lipo)  
-Voltaje aviso: 3.50v (Si bajamos el voltaje por debajo podemos desgastar la Lipo)  
-Voltaje recomendado de aterrizage: 3.6v (Para un correcto uso y vida de la Lipo)  
-
-Las baterias 4s  
-Voltaje min: 13.3v (Si bajamos el voltaje por debajo podemos dañar la Lipo)  
-Voltaje aviso: 13.8v (Si bajamos el voltaje por debajo podemos desgastar la Lipo)  
-Voltaje recomendado de aterrizage: 14.8v (Para un correcto uso y vida de la Lipo)  
-
-Para ajustes y calibraciones del sensor de voltaje y de corriente visita:
+Para ajustes y calibraciones del sensor de voltaje, de corriente y mucha mas información visita:  
 
 [Repertorio Baterias] https://github.com/AirbenderFPV/Baterias
 
