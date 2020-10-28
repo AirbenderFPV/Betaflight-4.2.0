@@ -39,6 +39,29 @@ Es muy recomendable actualizar el firmware de nuestros ESC o placa 4in1.
 
 ### Pantalla de Energía y Batería
 
+Esta pantalla nos ayuda con la gestión de el voltage y la corriente de nuestro quad.  
+
+- 
+Valores por defecto  
+El voltaje mínimo de celda nunca debe bajar de 3.3v.  
+Si bajamos el voltaje de una celda por debajo de 3.3v podemos dañar la Lipo.   
+El voltaje de aviso por defecto se configura en 3.5v.  
+Este voltaje es el que determina en el OSD cuando aparece el aviso de _LOW VOLTAGE_    
+
+Las baterias 1s  
+Voltaje min: 3.30v (Si bajamos el voltaje por debajo podemos dañar la Lipo)  
+Voltaje aviso: 3.50v (Si bajamos el voltaje por debajo podemos desgastar la Lipo)  
+Voltaje recomendado de aterrizage: 3.6v (Para un correcto uso y vida de la Lipo)  
+
+Las baterias 4s  
+Voltaje min: 13.3v (Si bajamos el voltaje por debajo podemos dañar la Lipo)  
+Voltaje aviso: 13.8v (Si bajamos el voltaje por debajo podemos desgastar la Lipo)  
+Voltaje recomendado de aterrizage: 14.8v (Para un correcto uso y vida de la Lipo)  
+
+Para ajustes y calibraciones del sensor de voltaje y de corriente:
+
+Visita el repertorio Baterias.   
+
 ### Pantalla de Modo de Seguridad
 
 ### Pantalla de Ajustar PID
