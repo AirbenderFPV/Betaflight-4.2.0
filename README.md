@@ -12,6 +12,9 @@ Si tienes dudas de como descargarte el configurador o como alcualizar el firmwar
 
 https://github.com/AirbenderFPV/Betaflight-4.2.0/blob/main/pantalla%20inicio.PNG
 
+https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/master/assets/pantalla%20inicio.PNG
+
+
 ### Pantalla de Ajustes
 
 ### Pantalla de Configuración
