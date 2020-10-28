@@ -23,7 +23,17 @@ Si tienes dudas de como descargarte el configurador o como alcualizar el firmwar
 
 ### Pantalla de Puertos
 
+En esta pantalla podremos configurar los puertos de nuestro quad.  
+Estos puertos normalmente vienen definidos en la placa controladora con la etiqueta TX y acompañada de un numero.  
+
+Por ejemplo:  
+El TX3 en la placa controladora sera el puerto Uart3 en Betaflight.  
+
 ### Pantalla de Ajustes  
+
+En esta pantalla podremos calibrar, restaurar o hacer una copia de seguridad nuestro quad.
+
+<img tabindex="0" src="https://gblobscdn.gitbook.com/assets%2F-LwhKv1QgSojdFnhI2Zd%2F-M39XWCO6Ny48pDY1Z4x%2F-M3A1ouj-9w7G2LunYtO%2Fimage.png?alt=media&amp;token=191411f0-7456-40bd-9222-b0f917cc59cf" loading="lazy" class="image-52799b3c" style="cursor: zoom-in;">
 
 ### Pantalla de Configuración  
 
