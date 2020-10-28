@@ -8,15 +8,7 @@ Si tienes dudas de como descargarte el configurador o como alcualizar el firmwar
 
 - Actualizar Configurador de Betaflight
 
-### Pantalla de inicio
-
-https://github.com/AirbenderFPV/Betaflight-4.2.0/blob/main/pantalla%20inicio.PNG
-
-https://github.com/AirbenderFPV/Betaflight-4.2.0/master/main/pantalla%20inicio.PNG
-
-https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/master/assets/pantalla%20inicio.PNG
-
-
+## Menú Betaflight 4.2.x  
 ### Pantalla de Ajustes
 
 ### Pantalla de Configuración
@@ -45,92 +37,92 @@ set iterm_relax_cutoff = 30
 set rc_smoothing_auto_smoothness = 5  
 set ff_interpolate_sp = ON  
 set ff_smooth_factor = 0  
-set ff_spike_limit = 60
-set ff_boost = 20
-set feedforward_transition = 0
-set yaw_lowpass_hz = 100
-set throttle_boost = 7
-set throttle_boost_cutoff = 25
-set dyn_lpf_dterm_curve_expo = 7
-set gyro_rpm_notch_q = 600
+set ff_spike_limit = 60  
+set ff_boost = 20  
+set feedforward_transition = 0  
+set yaw_lowpass_hz = 100  
+set throttle_boost = 7  
+set throttle_boost_cutoff = 25  
+set dyn_lpf_dterm_curve_expo = 7  
+set gyro_rpm_notch_q = 600  
 
 
 - Race y Fast Freestyle (Tolera controladoras de gama media, quad de respuesta rapida)
 
-set iterm_relax_cutoff = 20
-set rc_smoothing_auto_smoothness = 7
-set ff_interpolate_sp = AVERAGED_2
-set ff_smooth_factor = 20
-set ff_spike_limit = 70
-set ff_boost = 15
-set feedforward_transition = 0
-set yaw_lowpass_hz = 100
-set throttle_boost = 7
-set throttle_boost_cutoff = 25
-set dyn_lpf_dterm_curve_expo = 7
-set gyro_rpm_notch_q = 700
+set iterm_relax_cutoff = 20  
+set rc_smoothing_auto_smoothness = 7  
+set ff_interpolate_sp = AVERAGED_2  
+set ff_smooth_factor = 20  
+set ff_spike_limit = 70  
+set ff_boost = 15  
+set feedforward_transition = 0  
+set yaw_lowpass_hz = 100  
+set throttle_boost = 7  
+set throttle_boost_cutoff = 25  
+set dyn_lpf_dterm_curve_expo = 7  
+set gyro_rpm_notch_q = 700  
 
 - HD (Ideal para hacer grabaciones en HD con nuestra camara de acción)
 
-set iterm_relax_cutoff = 10
-set rc_smoothing_auto_smoothness = 20
-set ff_interpolate_sp = AVERAGED_3
-set ff_smooth_factor = 40
-set ff_spike_limit = 55
-set ff_boost = 0
-set feedforward_transition = 40
-set yaw_lowpass_hz = 70
-set throttle_boost = 5
-set throttle_boost_cutoff = 10
-set dyn_lpf_dterm_curve_expo = 7
-set gyro_rpm_notch_q = 800
+set iterm_relax_cutoff = 10  
+set rc_smoothing_auto_smoothness = 20  
+set ff_interpolate_sp = AVERAGED_3  
+set ff_smooth_factor = 40  
+set ff_spike_limit = 55  
+set ff_boost = 0  
+set feedforward_transition = 40  
+set yaw_lowpass_hz = 70  
+set throttle_boost = 5  
+set throttle_boost_cutoff = 10  
+set dyn_lpf_dterm_curve_expo = 7  
+set gyro_rpm_notch_q = 800  
 
 - Cinematic (Ideal para cinehoops y hoops)
 
-set iterm_relax_cutoff = 5
-set rc_smoothing_auto_smoothness = 40
-set ff_interpolate_sp = AVERAGED_4
-set ff_smooth_factor = 50
-set ff_spike_limit = 50
-set ff_boost = 0
-set feedforward_transition = 70
-set yaw_lowpass_hz = 50
-set throttle_boost = 2
-set throttle_boost_cutoff = 10
-set dyn_lpf_dterm_curve_expo = 8
-set gyro_rpm_notch_q = 900
-set iterm_windup = 75
+set iterm_relax_cutoff = 5  
+set rc_smoothing_auto_smoothness = 40  
+set ff_interpolate_sp = AVERAGED_4  
+set ff_smooth_factor = 50  
+set ff_spike_limit = 50  
+set ff_boost = 0  
+set feedforward_transition = 70  
+set yaw_lowpass_hz = 50  
+set throttle_boost = 2  
+set throttle_boost_cutoff = 10  
+set dyn_lpf_dterm_curve_expo = 8  
+set gyro_rpm_notch_q = 900  
+set iterm_windup = 75  
 
 
 - Valores por defecto ( Valor zero sisgnifica 'apagado')
 Estos son los valores por defecto por si queremos volver atrás en alguna de estas configuraciones
 
-set iterm_relax_cutoff = 15
-set rc_smoothing_auto_smoothness = 10
-set ff_interpolate_sp = AVERAGED_2
-set ff_smooth_factor = 37	
-set ff_spike_limit = 60
-set ff_boost = 15
-set feedforward_transition = 0
-set yaw_lowpass_hz = 0
-set throttle_boost = 5
-set throttle_boost_cutoff = 15
-set dyn_lpf_dterm_curve_expo = 5
-set gyro_rpm_notch_q = 500
-set iterm_windup = 100
+set iterm_relax_cutoff = 15  
+set rc_smoothing_auto_smoothness = 10  
+set ff_interpolate_sp = AVERAGED_2  
+set ff_smooth_factor = 37	  
+set ff_spike_limit = 60  
+set ff_boost = 15  
+set feedforward_transition = 0  
+set yaw_lowpass_hz = 0  
+set throttle_boost = 5  
+set throttle_boost_cutoff = 15  
+set dyn_lpf_dterm_curve_expo = 5  
+set gyro_rpm_notch_q = 500  
+set iterm_windup = 100  
 
 - Configuración extra para los usuarios de 4in1
 Recomendable si usas un 4in1 usar estos ajustes independientemente del modo de vuelo seleccionado anteriormente
 
-set dyn_lpf_dterm_curve_expo = 6
-set vbat_sag_compensation = 100
-set vbat_pid_gain = OFF
-set rc_smoothing_type = FILTER
-set rc_smoothing_input_hz = 0
-set rc_smoothing_derivative_hz = 0
-set rc_smoothing_input_type = BIQUAD
-set rc_smoothing_derivative_type = PT1
-set rc_smoothing_auto_smoothness = 10
+set dyn_lpf_dterm_curve_expo = 6  
+set vbat_sag_compensation = 100  
+set vbat_pid_gain = OFF  
+set rc_smoothing_type = FILTER  
+set rc_smoothing_input_hz = 0  
+set rc_smoothing_derivative_hz = 0  
+set rc_smoothing_input_type = BIQUAD  
+set rc_smoothing_derivative_type = PT1  
+set rc_smoothing_auto_smoothness = 10  
 
 ### Pantalla de Receptor
 
