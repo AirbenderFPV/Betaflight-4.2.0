@@ -3,17 +3,17 @@ Configuración recomendada
 
 En este repositorio iré actualizando las mejoras de Betaflight 4.2.0 así como las configuraciones recomendadas.
 
-### Título Pantalla de inicio
+### Pantalla de inicio
 
-### Título Pantalla de Ajustes
+### Pantalla de Ajustes
 
-### Título Pantalla de Configuración
+### Pantalla de Configuración
 
-### Título Pantalla de Energía y Batería
+### Pantalla de Energía y Batería
 
-### Título Pantalla de Modo de Seguridad
+### Pantalla de Modo de Seguridad
 
-### Título Pantalla de Ajustar PID
+### Pantalla de Ajustar PID
 
 #### PID
 #### TASAS
@@ -22,16 +22,18 @@ En este repositorio iré actualizando las mejoras de Betaflight 4.2.0 así como 
 
 - Configurar el interpolador de señal:
 
-Para carreras y con una emisora de alta prestación podemos habilitar este modo:
+Para carreras y con una emisora de alta prestación podemos habilitar este modo
 set ff_interpolate_sp = ON 
 
-Para un freestyle lo recomendable seria hacer un filtrado de la senyal:
+De lo contrario, nos interesa filtrar la señal para evitar el ruido que podamos tener en la señal
+Para un freestyle lo recomendable seria hacer un filtrado de la senyal
 set ff_interpolate_sp = Average_2
 
-Si hacemos una mezcla entre un freestyle y un cinematic con nuestra camara de acción:
-set ff_interpolate_sp = Average_3 para gopro freestyle tranki
+Si hacemos una mezcla entre un freestyle y un cinematic con nuestra camara de acción
+set ff_interpolate_sp = Average_3
 
-set ff_interpolate_sp = Average_4  para hoops i cinematic
+Para Hoops y Cinematicos tendriamos que usar un filtrado mas alto para suavizar los movimientos
+set ff_interpolate_sp = Average_4
  
 
 ### Título Pantalla de Receptor
@@ -55,5 +57,19 @@ set ff_interpolate_sp = Average_4  para hoops i cinematic
 ### Título Pantalla de Caja Negra
 
 ### Título Pantalla de CLI
+
+
+
+Fuentes de información
+
+Notas oficiales de la versión
+https://github.com/betaflight/betaflight/wiki/4.2-Tuning-Notes
+
+Joshua Bardwell
+https://www.youtube.com/watch?v=rhfOVJMxY7E
+
+QuadMx Drones
+https://www.youtube.com/watch?v=tCgN-EwdSQ8
+
 
 
