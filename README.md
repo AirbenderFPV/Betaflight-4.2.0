@@ -25,8 +25,8 @@ En este repositorio iré actualizando las mejoras de Betaflight 4.2.0 así como 
 Para carreras y con una emisora de alta prestación podemos habilitar este modo
 set ff_interpolate_sp = ON 
 
-De lo contrario, nos interesa filtrar la señal para evitar el ruido que podamos tener en la señal
-Para un freestyle lo recomendable seria hacer un filtrado de la senyal
+De lo contrario, nos interesa filtrar la señal para evitar el ruido que podamos tener en la señal;
+Para un freestyle lo recomendable seria hacer un filtrado de la senyal;
 set ff_interpolate_sp = Average_2
 
 Si hacemos una mezcla entre un freestyle y un cinematic con nuestra camara de acción
@@ -36,31 +36,31 @@ Para Hoops y Cinematicos tendriamos que usar un filtrado mas alto para suavizar 
 set ff_interpolate_sp = Average_4
  
 
-### Título Pantalla de Receptor
+### Pantalla de Receptor
 
-### Título Pantalla de Modos
+### Pantalla de Modos
 
-### Título Pantalla de Correcciones
+### Pantalla de Correcciones
 
-### Título Pantalla de Servos
+### Pantalla de Servos
 
-### Título Pantalla de Motores
+### Pantalla de Motores
 
-### Título Pantalla de OSD
+### Pantalla de OSD
 
-### Título Pantalla de Transmisor de Video
+### Pantalla de Transmisor de Video
 
-### Título Pantalla de Sensores
+### Pantalla de Sensores
 
-### Título Pantalla de Registro Conectado
+### Pantalla de Registro Conectado
 
-### Título Pantalla de Caja Negra
+### Pantalla de Caja Negra
 
-### Título Pantalla de CLI
+### Pantalla de CLI
 
 
 
-Fuentes de información
+#### Fuentes de información
 
 Notas oficiales de la versión
 https://github.com/betaflight/betaflight/wiki/4.2-Tuning-Notes
