@@ -1,17 +1,41 @@
 # Betaflight-4.2.x
 
-En este repositorio iré actualizando las mejoras de **Betaflight 4.2.x** así como las configuraciones recomendadas.
-Recordad que para usar esta versión de Betaflight es necesario el **Betaflight Configurator version 10.7**.
-Si tienes dudas de como descargarte el configurador o como alcualizar el firmware visita mis repositorios:
+En este repositorio iré actualizando las mejoras de **Betaflight 4.2.x** así como las configuraciones recomendadas.  
+El uso de esta información queda bajo la responsabilidad de cada usuario y siendo consciente del quad que tiene.  
+Recordad que para usar esta versión de Betaflight es necesario el **Betaflight Configurator version 10.7**.  
+Si tienes dudas de como descargarte el configurador o como alcualizar el firmware visita mis repositorios:  
 
-- Actualizar firmware 4.2.x en Betaflight
+- Actualizar firmware 4.2.x en Betaflight  
 
-- Actualizar Configurador de Betaflight
+- Actualizar Configurador de Betaflight  
 
 ## Menú Betaflight 4.2.x  
-### Pantalla de Ajustes
+### Pantalla de Ajustes  
 
-### Pantalla de Configuración
+### Pantalla de Configuración  
+
+#### DShot settings:  
+
+- Con el filtro rpm habilitado   
+dshot300 -> 4k max pidloop  
+dshot600 -> 8k max pidloop  
+
+- Usando el bidirectional y con el filtro rpm habilitados:     
+
+dshot150 -> 2k max pidloop  
+dshot300 -> 4k max pidloop (Recomendable para controladoras F4)    
+dshot600 -> 8k max pidloop (Recomendable para controladoras F7)   
+
+- Sin usar el bidirectional y con el filtro rpm habilitados:    
+
+dshot150 -> 4k max pidloop   
+dshot300 -> 8k max pidlopp    
+dshot600 -> up to 16k max pidloop (8k es el maximo que se puede configurar en la versión 4.2)  
+
+#### Actualizar Firmware ESC o 4in1:
+
+Es muy recomendable actualizar el firmware de nuestros ESC o placa 4in1.
+
 
 ### Pantalla de Energía y Batería
 
