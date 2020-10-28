@@ -2,12 +2,22 @@
 
 En este repositorio iré actualizando las mejoras de **Betaflight 4.2.x** así como las configuraciones recomendadas.  
 El uso de esta información queda bajo la responsabilidad de cada usuario y siendo consciente del quad que tiene.  
-Recordad que para usar esta versión de Betaflight es necesario el **Betaflight Configurator version 10.7**.  
+Recordad que para usar esta versión de Betaflight es necesario el **Betaflight Configurator version 10.7.0**.  
+Nuevas aportaciones de esta versión:  
+- Han reprogramado completamente la forma de leer el loop del giroscópico, esto ha provocado un mejor rendimiento y lo hace trabajar a la velocidad nativa del giroscopio, por lo que no lo puedes cambiar, viene por defecto.
+- Nuevos modelos de Rates, mas fácil de configurar desde el OSD, con ajustes mas optimizados y rápidos
+- Nuevo sistema de compensación por la caída del voltaje de la batería, lo que resulta en un comportamiento más uniforme del acelerador/PID durante todo el tiempo de vuelo.
+- Han añadido un nuevo modelo de carrera, el NEF, que esta pensado mas para los tinys, este modo combina el acro para el eje de pith, y horizont en el eje del ROLL.
+- Muchas mejoras en el OSD, como poner el logo poner el logo, funciones añadidas para Frsky.
+- Podrás bindear receptores Frsky con soporte SPI desde el propio betaflight 4.2 sin entrar por el CLI.
+- Ahora es obligatorio calibrar el acelerómetro.
+Hay mas mejoras en el betaflight 4.2 he resumido las que son la principales y debes tener en cuenta antes de realizar el cambio. 
+
 Si tienes dudas de como descargarte el configurador o como alcualizar el firmware visita los repositorios:  
 
-- [Actualizar firmware 4.2.x] https://github.com/AirbenderFPV   
+[Actualizar firmware 4.2.x] https://github.com/AirbenderFPV   
 
-- [Actualizar/Instalar el Configurador de Betaflight v10.7] https://github.com/AirbenderFPV   
+[Actualizar/Instalar el Configurador de Betaflight v10.7] https://github.com/AirbenderFPV   
 
 ## Menú Betaflight 4.2.x  
 ### Pantalla de Ajustes  
@@ -82,7 +92,7 @@ Esta pestaña nos ayuda a filtrar las señales de nuestro quad, si tienes poca e
 Estos comandos son sugerencias sobre cómo se pueden ajustar algunas de las configuraciones menos comunes para adaptarse a un cierto tipo de vuelo. Son valores que Betaflight nos da como orientativos para los diferentes tipos de vuelo. No ajustaran perfecto nuestro quad, ya que no incluyen ajustes de PID o valores de filtro, pero nos ayudaran a tener un control mas adaptado a nuestras necesidades.
 
 Para usar estos comandos tendremos que copiarlos y pegarlos en el CLI, una vez pegados le damos a enter.
-Para guardarlos tenemos que ejecutar el comando Save.
+Para guardarlos tenemos que ejecutar el comando _Save_.
 
 - ProRace (Requiere una buena controladora y motores en buen estado, revisar en los primeros vuelos que los motores no se calienten)
 
@@ -207,14 +217,11 @@ Podemos listar nuestros ajustes cambiados respecto a los valores por defecto con
 
 #### Fuentes de información
 
-Notas oficiales de la versión
-https://github.com/betaflight/betaflight/wiki/4.2-Tuning-Notes
+[Notas oficiales de la versión] https://github.com/betaflight/betaflight/wiki/4.2-Tuning-Notes
 
-Joshua Bardwell
-https://www.youtube.com/watch?v=rhfOVJMxY7E
+[Joshua Bardwell] https://www.youtube.com/watch?v=rhfOVJMxY7E
 
-QuadMx Drones
-https://www.youtube.com/watch?v=tCgN-EwdSQ8
+[QuadMx Drones] https://www.youtube.com/watch?v=tCgN-EwdSQ8  
 
-
+[Midronedecarreras] https://www.midronedecarreras.com/betaflight/#Descarga_el_Configurador_BLHeli_suite_32
 
