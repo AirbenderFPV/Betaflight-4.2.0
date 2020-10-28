@@ -41,10 +41,10 @@ Para guardarlos tenemos que ejecutar el comando Save.
 
 - ProRace (Requiere una buena controladora y motores en buen estado, revisar en los primeros vuelos que los motores no se calienten)
 
-set iterm_relax_cutoff = 30 
-set rc_smoothing_auto_smoothness = 5 
-set ff_interpolate_sp = ON
-set ff_smooth_factor = 0
+set iterm_relax_cutoff = 30  
+set rc_smoothing_auto_smoothness = 5  
+set ff_interpolate_sp = ON  
+set ff_smooth_factor = 0  
 set ff_spike_limit = 60
 set ff_boost = 20
 set feedforward_transition = 0
