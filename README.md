@@ -27,11 +27,18 @@ Si tienes dudas de como descargarte el configurador o como alcualizar el firmwar
 
 ### Pantalla de Configuración  
 
+En esta pantalla podremos configurar el protocolo que controlara nuestros motores y las diferentes funcionalidades de nuestro quad.
+
 <img alt="2. Betaflight Quick Start Guide - brainfpv" class="n3VNCb" src="https://www.brainfpv.com/wp-content/uploads/2018/01/bf_configuration.png" data-noaft="1" jsname="HiaYvf" jsaction="load:XAeZkd;" style="width: 585px; height: 416.812px; margin: 0px;">
+
+La opción **MOTOR_STOP** controla si los motores girarán o no al armar el quad.  
+Si los motores giran al armar el quad y tenemos esta opción deshabilitada seguramente tendremos habilitado el **AIR MODE**.
+Por defecto el **Motor Idle Throttle value [percent]** tiene un valor de 4.5, esto es el porcentaje al que giraran los motores al armar.
 
 #### DShot settings:  
 
-Consulta en las especificaciones de tus ESCs o 4in1 que DSHOT tiene antes de aplicar cualquier corrección.  
+Consulta en las especificaciones de tus ESCs o 4in1 que DSHOT tiene antes de aplicar cualquier corrección. 
+Se puede habilitar el bidirectional con el switch de debajo de la imagen del quad.
 
 - Con el filtro rpm habilitado   
 dshot300 -> 4k max pidloop  
