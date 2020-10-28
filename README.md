@@ -1,8 +1,12 @@
 # Betaflight-4.2.x
-Configuración recomendada
 
 En este repositorio iré actualizando las mejoras de **Betaflight 4.2.x** así como las configuraciones recomendadas.
-Recordad que para usar esta versión de Betaflight es necesario el **Betaflight Configurator version 10.7**
+Recordad que para usar esta versión de Betaflight es necesario el **Betaflight Configurator version 10.7**.
+Si tienes dudas de como descargarte el configurador o como alcualizar el firmware visita mis repositorios:
+
+- Actualizar firmware 4.2.x en Betaflight
+
+- Actualizar Configurador de Betaflight
 
 ### Pantalla de inicio
 
