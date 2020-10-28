@@ -70,7 +70,7 @@ Voltaje recomendado de aterrizage: 14.8v (Para un correcto uso y vida de la Lipo
 
 Para ajustes y calibraciones del sensor de voltaje y de corriente visita:
 
-[Repertorio Baterias] https://github.com/AirbenderFPV
+[Repertorio Baterias] https://github.com/AirbenderFPV/Baterias
 
 ### Pantalla de Modo de Seguridad
 
