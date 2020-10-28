@@ -1,7 +1,8 @@
-# Betaflight-4.2.0
+# Betaflight-4.2.x
 Configuración recomendada
 
-En este repositorio iré actualizando las mejoras de Betaflight 4.2.0 así como las configuraciones recomendadas.
+En este repositorio iré actualizando las mejoras de **Betaflight 4.2.x** así como las configuraciones recomendadas.
+Recordad que para usar esta versión de Betaflight es necesario el **Betaflight Configurator version 10.7**
 
 ### Pantalla de inicio
 
@@ -23,16 +24,21 @@ En este repositorio iré actualizando las mejoras de Betaflight 4.2.0 así como 
 - Configurar el interpolador de señal:
 
 Para carreras y con una emisora de alta prestación podemos habilitar este modo
+
 set ff_interpolate_sp = ON 
 
-De lo contrario, nos interesa filtrar la señal para evitar el ruido que podamos tener en la señal;
-Para un freestyle lo recomendable seria hacer un filtrado de la senyal;
+De lo contrario, nos interesa filtrar la señal para evitar el ruido que podamos tener en la señal.
+
+Para un freestyle lo recomendable seria hacer un filtrado de la senyal:
+
 set ff_interpolate_sp = Average_2
 
-Si hacemos una mezcla entre un freestyle y un cinematic con nuestra camara de acción
+Si hacemos una mezcla entre un freestyle y un cinematic con nuestra camara de acción:
+
 set ff_interpolate_sp = Average_3
 
-Para Hoops y Cinematicos tendriamos que usar un filtrado mas alto para suavizar los movimientos
+Para Hoops y Cinematicos tendriamos que usar un filtrado mas alto para suavizar los movimientos:
+
 set ff_interpolate_sp = Average_4
  
 
@@ -58,6 +64,7 @@ set ff_interpolate_sp = Average_4
 
 ### Pantalla de CLI
 
+Esta pantalla nos permite introducir comandos para programar o extraer valores de la controladora de vuelo de nuestro drone
 
 
 #### Fuentes de información
