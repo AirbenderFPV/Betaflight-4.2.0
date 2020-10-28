@@ -3,11 +3,11 @@
 En este repositorio iré actualizando las mejoras de **Betaflight 4.2.x** así como las configuraciones recomendadas.  
 El uso de esta información queda bajo la responsabilidad de cada usuario y siendo consciente del quad que tiene.  
 Recordad que para usar esta versión de Betaflight es necesario el **Betaflight Configurator version 10.7**.  
-Si tienes dudas de como descargarte el configurador o como alcualizar el firmware visita mis repositorios:  
+Si tienes dudas de como descargarte el configurador o como alcualizar el firmware visita los repositorios:  
 
-- Actualizar firmware 4.2.x en Betaflight  
+- [Actualizar firmware 4.2.x] https://github.com/AirbenderFPV   
 
-- Actualizar Configurador de Betaflight  
+- [Actualizar/Instalar el Configurador de Betaflight v10.7] https://github.com/AirbenderFPV   
 
 ## Menú Betaflight 4.2.x  
 ### Pantalla de Ajustes  
@@ -15,6 +15,8 @@ Si tienes dudas de como descargarte el configurador o como alcualizar el firmwar
 ### Pantalla de Configuración  
 
 #### DShot settings:  
+
+Consulta en las especificaciones de tus ESCs o 4in1 que DSHOT tiene antes de aplicar cualquier corrección.  
 
 - Con el filtro rpm habilitado   
 dshot300 -> 4k max pidloop  
@@ -32,17 +34,15 @@ dshot150 -> 4k max pidloop
 dshot300 -> 8k max pidlopp    
 dshot600 -> up to 16k max pidloop (8k es el maximo que se puede configurar en la versión 4.2)  
 
-#### Actualizar Firmware ESC o 4in1:
+Para la actualización de firmware de los ESC o 4in1 visita:
 
-Es muy recomendable actualizar el firmware de nuestros ESC o placa 4in1.
-
+[Repertorio ESC and 4in1] https://github.com/AirbenderFPV
 
 ### Pantalla de Energía y Batería
 
 Esta pantalla nos ayuda con la gestión de el voltage y la corriente de nuestro quad.  
 
-- 
-Valores por defecto  
+- Valores por defecto  
 El voltaje mínimo de celda nunca debe bajar de 3.3v.  
 Si bajamos el voltaje de una celda por debajo de 3.3v podemos dañar la Lipo.   
 El voltaje de aviso por defecto se configura en 3.5v.  
@@ -58,18 +58,24 @@ Voltaje min: 13.3v (Si bajamos el voltaje por debajo podemos dañar la Lipo)
 Voltaje aviso: 13.8v (Si bajamos el voltaje por debajo podemos desgastar la Lipo)  
 Voltaje recomendado de aterrizage: 14.8v (Para un correcto uso y vida de la Lipo)  
 
-Para ajustes y calibraciones del sensor de voltaje y de corriente:
+Para ajustes y calibraciones del sensor de voltaje y de corriente visita:
 
-Visita el repertorio Baterias.   
+[Repertorio Baterias] https://github.com/AirbenderFPV
 
 ### Pantalla de Modo de Seguridad
 
 ### Pantalla de Ajustar PID
 
 #### PID
-#### TASAS
-#### FILTROS
+Esta pestaña nos ayuda a calibrar el PID de nuestro quad, si tienes poca experiencia es mejor dejar los ajustes por defecto.
 
+#### TASAS
+Esta pestaña nos ayuda a calibrar los "rates" o tasas de nuestro quad, en otras palabras la sensibilidad de nuestros sticks.  
+Podemos editar el perfil de cada palanca editando los valores para respuestas mas ajustadas a nuestra forma de volar.
+Si tienes poca experiencia es mejor dejar los ajustes por defecto.
+
+#### FILTROS
+Esta pestaña nos ayuda a filtrar las señales de nuestro quad, si tienes poca experiencia es mejor dejar los ajustes por defecto.  
 
 #### Ajustes rapidos recomendados en Betaflight 4.2.x
 
