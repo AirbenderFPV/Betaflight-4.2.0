@@ -20,9 +20,14 @@ Si tienes dudas de como descargarte el configurador o como alcualizar el firmwar
 [Actualizar/Instalar el Configurador de Betaflight v10.7] https://github.com/AirbenderFPV   
 
 ## Menú Betaflight 4.2.x  
+
+### Pantalla de Puertos
+
 ### Pantalla de Ajustes  
 
 ### Pantalla de Configuración  
+
+<img alt="2. Betaflight Quick Start Guide - brainfpv" class="n3VNCb" src="https://www.brainfpv.com/wp-content/uploads/2018/01/bf_configuration.png" data-noaft="1" jsname="HiaYvf" jsaction="load:XAeZkd;" style="width: 585px; height: 416.812px; margin: 0px;">
 
 #### DShot settings:  
 
