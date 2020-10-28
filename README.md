@@ -76,22 +76,22 @@ Para ajustes y calibraciones del sensor de voltaje y de corriente visita:
 
 ### Pantalla de Ajustar PID
 
-#### PID
+#### PID  
 Esta pestaña nos ayuda a calibrar el PID de nuestro quad, si tienes poca experiencia es mejor dejar los ajustes por defecto.
 
-#### TASAS
-Esta pestaña nos ayuda a calibrar los "rates" o tasas de nuestro quad, en otras palabras la sensibilidad de nuestros sticks.  
-Podemos editar el perfil de cada palanca editando los valores para respuestas mas ajustadas a nuestra forma de volar.
-Si tienes poca experiencia es mejor dejar los ajustes por defecto.
+#### TASAS  
+Esta pestaña nos ayuda a calibrar los "rates" o tasas de nuestro quad, en otras palabras la sensibilidad de nuestros sticks.   
+Podemos editar el perfil de cada palanca editando los valores para respuestas mas ajustadas a nuestra forma de volar.  
+Si tienes poca experiencia es mejor dejar los ajustes por defecto.  
 
-#### FILTROS
-Esta pestaña nos ayuda a filtrar las señales de nuestro quad, si tienes poca experiencia es mejor dejar los ajustes por defecto.  
+#### FILTROS  
+Esta pestaña nos ayuda a filtrar las señales de nuestro quad, si tienes poca experiencia es mejor dejar los ajustes por defecto.   
 
 #### Ajustes rapidos recomendados en Betaflight 4.2.x
 
 Estos comandos son sugerencias sobre cómo se pueden ajustar algunas de las configuraciones menos comunes para adaptarse a un cierto tipo de vuelo. Son valores que Betaflight nos da como orientativos para los diferentes tipos de vuelo. No ajustaran perfecto nuestro quad, ya que no incluyen ajustes de PID o valores de filtro, pero nos ayudaran a tener un control mas adaptado a nuestras necesidades.
 
-Para usar estos comandos tendremos que copiarlos y pegarlos en el CLI, una vez pegados le damos a enter.
+Para usar estos comandos tendremos que copiarlos y pegarlos en el CLI, una vez pegados le damos a enter.  
 Para guardarlos tenemos que ejecutar el comando _Save_.
 
 - ProRace (Requiere una buena controladora y motores en buen estado, revisar en los primeros vuelos que los motores no se calienten)
@@ -157,7 +157,7 @@ set gyro_rpm_notch_q = 900
 set iterm_windup = 75  
 
 
-- Valores por defecto ( Valor zero sisgnifica 'apagado')
+- Valores por defecto ( Valor zero sisgnifica 'apagado')  
 Estos son los valores por defecto por si queremos volver atrás en alguna de estas configuraciones
 
 set iterm_relax_cutoff = 15  
@@ -174,7 +174,7 @@ set dyn_lpf_dterm_curve_expo = 5
 set gyro_rpm_notch_q = 500  
 set iterm_windup = 100  
 
-- Configuración extra para los usuarios de 4in1
+- Configuración extra para los usuarios de 4in1  
 Recomendable si usas un 4in1 usar estos ajustes independientemente del modo de vuelo seleccionado anteriormente
 
 set dyn_lpf_dterm_curve_expo = 6  
@@ -209,7 +209,7 @@ set rc_smoothing_auto_smoothness = 10
 
 ### Pantalla de CLI
 
-Esta pantalla nos permite introducir comandos para programar o extraer valores de la controladora de vuelo de nuestro drone
+Esta pantalla nos permite introducir comandos para programar o extraer valores de la controladora de vuelo de nuestro drone  
 Para guardarlos tenemos que ejecutar el comando **Save**.
 
 Podemos listar nuestros ajustes cambiados respecto a los valores por defecto con el comando **diff_all**
@@ -217,11 +217,11 @@ Podemos listar nuestros ajustes cambiados respecto a los valores por defecto con
 
 #### Fuentes de información
 
-[Notas oficiales de la versión] https://github.com/betaflight/betaflight/wiki/4.2-Tuning-Notes
+[Notas oficiales de la versión] https://github.com/betaflight/betaflight/wiki/4.2-Tuning-Notes  
 
-[Joshua Bardwell] https://www.youtube.com/watch?v=rhfOVJMxY7E
+[Joshua Bardwell] https://www.youtube.com/watch?v=rhfOVJMxY7E  
 
-[QuadMx Drones] https://www.youtube.com/watch?v=tCgN-EwdSQ8  
-
-[Midronedecarreras] https://www.midronedecarreras.com/betaflight/#Descarga_el_Configurador_BLHeli_suite_32
+[QuadMx Drones] https://www.youtube.com/watch?v=tCgN-EwdSQ8   
+ 
+[Midronedecarreras] https://www.midronedecarreras.com/betaflight/#Descarga_el_Configurador_BLHeli_suite_32  
 
