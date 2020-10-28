@@ -1,4 +1,4 @@
-# Betaflight-4.2.x
+# Betaflight v4.2.x
 
 En este repositorio iré actualizando las mejoras de **Betaflight 4.2.x** así como las configuraciones recomendadas.  
 El uso de esta información queda bajo la responsabilidad de cada usuario y siendo consciente del quad que tiene.  
