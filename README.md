@@ -37,7 +37,14 @@ El TX3 en la placa controladora sera el puerto Uart3 en Betaflight.
 
 En esta pantalla podremos calibrar, restaurar o hacer una copia de seguridad nuestro quad.
 
+<img src="https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/main/images/Ajuste.PNG">
 
+Para **Calibrar el Acelerómetro** situar nuestro quad en una superficie plana y dar al botón.  
+Si usamos **Borrar Contiguración** volveremos a los valores de fabrica la controladora de vuelo.  
+Si queremos hacer una **Copia de seguridad** de nuestra configuración, usando ese botón nos abrirá el explorador de windows para que indiquemos donde guardar el archivo.  
+Para **Restaurar** una copia de seguridad solo tendremos que indicar el archivo donde previamente lo guardamos.  
+ 
+Es aconsejable hacer una copia de seguridad antes de hacer cambios importantes, por si tenemos que deshacer estos cambios de forma rapida.
 
 ### Pantalla de Configuración  
 
