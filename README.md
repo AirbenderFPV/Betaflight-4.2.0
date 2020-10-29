@@ -31,7 +31,7 @@ En esta pantalla podremos configurar los puertos de nuestro quad.
 Estos puertos normalmente vienen definidos en la placa controladora con la etiqueta TX y acompañada de un numero.  
 Por ejemplo, el TX3 en la placa controladora sera el puerto Uart3 en Betaflight.  
 
-<img src="https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/main/images/Puertos.PNG">
+<img src="https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/main/images/puertos.PNG">
 
 En esta imagen tenemos habilitado:   
 El puerto **USB VCP** para la comunicación por el puerto usb.  
