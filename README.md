@@ -17,7 +17,7 @@ Hay mas mejoras en el betaflight 4.2 he resumido las que son la principales y de
 
 Si tienes dudas de como descargarte el configurador o como alcualizar el firmware visita los repositorios:  
 
-[Actualizar firmware 4.2.x] https://github.com/AirbenderFPV   
+[Actualizar firmware 4.2.x] https://github.com/AirbenderFPV/Actualizar-Firmware
 
 [Actualizar/Instalar el Configurador de Betaflight v10.7] https://github.com/AirbenderFPV   
 
@@ -38,6 +38,9 @@ En esta pantalla podremos calibrar, restaurar o hacer una copia de seguridad nue
 <img tabindex="0" src="https://gblobscdn.gitbook.com/assets%2F-LwhKv1QgSojdFnhI2Zd%2F-M39XWCO6Ny48pDY1Z4x%2F-M3A1ouj-9w7G2LunYtO%2Fimage.png?alt=media&amp;token=191411f0-7456-40bd-9222-b0f917cc59cf" loading="lazy" class="image-52799b3c" style="cursor: zoom-in;">
 
 ### Pantalla de Configuración  
+
+<img class=" wp-image-2717 alignright" src="https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/main/images/configuracion.PNG">
+
 
 En esta pantalla podremos configurar el protocolo que controlara nuestros motores y las diferentes funcionalidades de nuestro quad.
 
