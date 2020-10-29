@@ -29,9 +29,15 @@ https://github.com/betaflight/betaflight-configurator/releases/download/10.7.0/b
 
 En esta pantalla podremos configurar los puertos de nuestro quad.  
 Estos puertos normalmente vienen definidos en la placa controladora con la etiqueta TX y acompañada de un numero.  
+Por ejemplo, el TX3 en la placa controladora sera el puerto Uart3 en Betaflight.  
 
-Por ejemplo:  
-El TX3 en la placa controladora sera el puerto Uart3 en Betaflight.  
+<img src="https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/main/images/Puertos.PNG">
+
+En esta imagen tenemos habilitado:   
+El puerto **USB VCP** para la comunicación por el puerto usb.  
+El puerto **UART1** para  la comunicación Rx. Comunicación con nuestra emisora.  
+El puerto **UART3** para la comunicación con el VTX a través de SmartAudio.  
+El puerto **UART4** esta activado pero sin uso.  
 
 ### Pantalla de Ajustes  
 
@@ -129,7 +135,9 @@ Nos ayuda a controlar los leds del quad. Se pueden configurar en su pantalla.
 
 ### Pantalla de Energía y Batería
 
-Esta pantalla nos ayuda con la gestión de el voltage y la corriente de nuestro quad.  
+Esta pantalla nos ayuda con la gestión de el voltage y la corriente de nuestro quad. 
+
+<img src="https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/main/images/energia.PNG">
 
 - Valores por defecto, no editar   
 El voltaje mínimo de celda nunca debe bajar de 3.3v.  
@@ -178,6 +186,15 @@ Para mas información de ajustes rapidos recomendados visita:
 
 
 ### Pantalla de Receptor
+
+Esta pantalla nos ayuda a ver las señales de nuestra emisora.
+Si tenemos la emisora encendida y el quad conectado al ordenador y no varian los valores, seguramente tengamos que alimentar el quad con una LiPo.  
+Recordad tener siempre la antena del VTX conectada antes de enchufar una LiPo y no estar mucho rato con el quad parado y la LiPo alimentando.  
+Podríais sobrecalentar el sitema e incluso quemar el VTX.
+
+<img src="https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/main/images/receptor.PNG">
+
+En esta pantalla es importante que seleccionemos el **Canal RSSI** para saber el estado de nuestra señal durante el vuelo.
 
 ### Pantalla de Modos
 
