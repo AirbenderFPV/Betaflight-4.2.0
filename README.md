@@ -40,6 +40,11 @@ El puerto **UART3** para la comunicación con el VTX a través de SmartAudio.
 El puerto **UART4** para la comunicación por Bluetooth. Con aplicación SpeedyBee.
 
 No todas las controladoras tienen Bluethooth y no todos los VTX tienen cable para comunicarción.
+Puedes consutar los puertos y configuraciones recomendadas por el fabricante en el manual de tu controladora de vuelo, como en los siguientes ejemplos:  
+
+[MAMBA F405MK2] https://www.diatone.us/collections/mamba-stack/products/mamba-f405-mk%E2%85%B1-flight-controller-stack
+
+[MAMBA F722] https://www.diatone.us/collections/mamba-stack/products/mamba-f722s-flight-controller-stack
 
 ### Pantalla de Ajustes  
 
@@ -145,9 +150,18 @@ Esta pantalla nos ayuda con la gestión de el voltage y la corriente de nuestro 
 El voltaje mínimo de celda nunca debe bajar de 3.3v.  
 Si bajamos el voltaje de una celda por debajo de 3.3v podemos dañar la Lipo.   
 El voltaje de aviso por defecto se configura en 3.5v.  
-Este voltaje es el que determina en el OSD cuando aparece el aviso de _LOW VOLTAGE_    
+Este voltaje es el que determina en el OSD cuando aparece el aviso de _LOW VOLTAGE_  
 
-Para ajustes y calibraciones del sensor de voltaje, de corriente y mucha mas información visita:  
+Para calibrar el sensor de voltaje tendremos que usar un Multimetro para saber el voltaje real de nuestra bateria.   
+Posteriormente enchufar la LiPo y incrementar/disminuir el valor de **Escala** en el medidor de voltaje hasta que el valor del medidor de voltaje concuerde con el medido con el multimetro. 
+
+Puedes consutar ajustes recomendados por el fabricante en el manual de tu controladora de vuelo, como en los siguientes ejemplos:  
+
+[MAMBA F405MK2] https://www.diatone.us/collections/mamba-stack/products/mamba-f405-mk%E2%85%B1-flight-controller-stack
+
+[MAMBA F722] https://www.diatone.us/collections/mamba-stack/products/mamba-f722s-flight-controller-stack
+
+Para mas información visita:  
 
 [Repertorio Baterias] https://github.com/AirbenderFPV/Baterias
 
