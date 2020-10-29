@@ -1,5 +1,7 @@
 # Betaflight v4.2.x
 
+<img src="https://raw.githubusercontent.com/wiki/betaflight/betaflight/images/betaflight/bf_logo.png" alt="BetaFlight">
+
 En este repositorio iré actualizando las mejoras de **Betaflight 4.2.x** así como las configuraciones recomendadas.  
 El uso de esta información queda bajo la responsabilidad de cada usuario y siendo consciente del quad que tiene.  
 Recordad que para usar esta versión de Betaflight es necesario el **Betaflight Configurator version 10.7.0**.  
