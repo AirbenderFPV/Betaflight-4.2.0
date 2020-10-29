@@ -37,8 +37,9 @@ En esta imagen tenemos habilitado:
 El puerto **USB VCP** para la comunicación por el puerto usb.  
 El puerto **UART1** para  la comunicación Rx. Comunicación con nuestra emisora.  
 El puerto **UART3** para la comunicación con el VTX a través de SmartAudio.  
-El puerto **UART4** esta activado pero sin uso.  
-Este ultimo tendria que estar deshabilitado, si no usamos el UART es mejor deshabilitarlo.
+El puerto **UART4** para la comunicación por Bluetooth. Con aplicación SpeedyBee.
+
+No todas las controladoras tienen Bluethooth y no todos los VTX tienen cable para comunicarción.
 
 ### Pantalla de Ajustes  
 
