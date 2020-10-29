@@ -40,26 +40,27 @@ En esta pantalla podremos calibrar, restaurar o hacer una copia de seguridad nue
 ### Pantalla de Configuración  
 
 En esta pantalla podremos configurar el protocolo que controlara nuestros motores y las diferentes funcionalidades de nuestro quad.  
-Es una de las pestañas mas importante de la configuración de nuestro quad.  
+Es una de las pestañas mas importante de la configuración de nuestro quad. 
+Puedes dar nombre a tu quad en el subapartado **Personalización**  
 
 <img src="https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/main/images/configuracion.PNG">
 
-_EJemplo: Configuración usada en una controladora MAMBA STM32F722S_
+_Ejemplo: Configuración usada en una controladora MAMBA STM32F722S_
 
 #### Funcionalidades ESC/Motor:
 La opción **MOTOR_STOP** controla si los motores girarán o no al armar el quad.  
-Si los motores giran al armar el quad y tenemos esta opción deshabilitada seguramente tendremos habilitado el **AIR MODE**.
-Por defecto el **Motor Idle Throttle value [percent]** tiene un valor de 4.5, esto es el porcentaje al que giraran los motores al armar.
-Por defecto el numero de **Polos del motor** viene como 14. Estos son el numero de imanes que tiene tu campana de motor.
-En tinnys a veces este numero se reduce ya que los motores son mas pequeños. Rondan sobre 12.
-Lo mejor es asegurarse mirando una campana de nuestros motores.
+Si los motores giran al armar el quad y tenemos esta opción deshabilitada seguramente tendremos habilitado el **AIR MODE**.  
+Por defecto el **Motor Idle Throttle value [percent]** tiene un valor de 4.5, esto es el porcentaje al que giraran los motores al armar.  
+Por defecto el numero de **Polos del motor** viene como 14. Estos son el numero de imanes que tiene tu campana de motor.  
+En tinnys a veces este numero se reduce ya que los motores son mas pequeños. Rondan sobre 12.  
+Lo mejor es asegurarse mirando una campana de nuestros motores.  
 
 #### Configuración del sistema y DShot settings:  
 
-El **Acelerómetro** es el sensor que nos ayuda a controlar la inclinazión del quad.  
-En caso de volar en **Angle Mode** o **Horizon Mode** necesitas tener activado este sensor. 
+El **Acelerómetro** es el sensor que nos ayuda a controlar la inclinazión del quad.    
+En caso de volar en **Angle Mode** o **Horizon Mode** necesitas tener activado este sensor.  
 Revisa la pantalla de Ajustes para ver como calibrar el quad si usas esos modos.  
-Normalmente las controladoras de vuelo no trae equipado un Barómetro ni un Magnetómetro.  
+Normalmente las controladoras de vuelo no trae equipado un Barómetro ni un Magnetómetro.   
 Lo mejor en estos casos es **Desactivar** estos dos sensores.  
 
 Las frequencias del sersor Giro y del PID son importantisimas para volar.  
@@ -101,7 +102,19 @@ En cuanto a la aliniación de la placa, si la montamos de forma que la flecha di
 
 #### Receptor: 
 
-En este subapartado podemos configurar como será la comunicación
+En este subapartado podemos configurar como será la comunicación con nuestra emisora.  
+Debes consultar el protocolo de tu receptor y tu emisora para configurarlo.
+
+#### Otras funcionalidades:
+
+Normalmente se dejan tal como vienen de serie a excepción de estas tres:
+
+- Air Mode:  
+Activa permanentemente el Air Mode. Se puede deshabilitar aqui i condicionarlo en la pantalla de Modos.  
+- OSD:  
+Permite sobreponer información sobre la imagen de la camara. Se configura en la pantalla de OSD.  
+- LED_STRIP:  
+Nos ayuda a controlar los leds del quad. Se pueden configurar en su pantalla.  
 
 ### Pantalla de Energía y Batería
 
