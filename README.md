@@ -37,6 +37,8 @@ El TX3 en la placa controladora sera el puerto Uart3 en Betaflight.
 
 En esta pantalla podremos calibrar, restaurar o hacer una copia de seguridad nuestro quad.
 
+En esta versión de Betaflight es **obligatorio calibrar** nuestro quad si vamos a usar los modos **Angle** o **Horizon**.
+
 <img src="https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/main/images/Ajuste.PNG">
 
 Para **Calibrar el Acelerómetro** situar nuestro quad en una superficie plana y dar al botón.  
