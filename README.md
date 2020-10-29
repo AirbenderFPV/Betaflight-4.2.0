@@ -38,6 +38,7 @@ El puerto **USB VCP** para la comunicación por el puerto usb.
 El puerto **UART1** para  la comunicación Rx. Comunicación con nuestra emisora.  
 El puerto **UART3** para la comunicación con el VTX a través de SmartAudio.  
 El puerto **UART4** para la comunicación por Bluetooth. Con aplicación SpeedyBee.
+En algunos casos el **UART6** se utiliza para la telemetria con los ESC, tendriamos que declararlo en **Entrada de Sensores**
 
 No todas las controladoras tienen Bluethooth y no todos los VTX tienen cable para comunicarción.
 Puedes consutar los puertos y configuraciones recomendadas por el fabricante en el manual de tu controladora de vuelo, como en los siguientes ejemplos:  
@@ -155,7 +156,9 @@ Este voltaje es el que determina en el OSD cuando aparece el aviso de _LOW VOLTA
 Para calibrar el sensor de voltaje tendremos que usar un Multimetro para saber el voltaje real de nuestra bateria.   
 Posteriormente enchufar la LiPo y incrementar/disminuir el valor de **Escala** en el medidor de voltaje hasta que el valor del medidor de voltaje concuerde con el medido con el multimetro. 
 
-Puedes consutar ajustes recomendados por el fabricante en el manual de tu controladora de vuelo, como en los siguientes ejemplos:  
+Para calibrar el sensor de corriente podemos usar el **ADC Integrado** y ajustar el escalado tal como marca el fabricante o podemos usar la opción **Sensor ESC** si previamente lo hemos configurado en los puertos.
+
+Puedes consutar los escalados recomendados por el fabricante en el manual de tu controladora de vuelo, como en los siguientes ejemplos:  
 
 [MAMBA F405MK2] https://www.diatone.us/collections/mamba-stack/products/mamba-f405-mk%E2%85%B1-flight-controller-stack
 
