@@ -39,42 +39,69 @@ En esta pantalla podremos calibrar, restaurar o hacer una copia de seguridad nue
 
 ### Pantalla de Configuración  
 
-En esta pantalla podremos configurar el protocolo que controlara nuestros motores y las diferentes funcionalidades de nuestro quad.
-
-<img class=" wp-image-2717 alignright" src="https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/main/images/configuracion.PNG">
+En esta pantalla podremos configurar el protocolo que controlara nuestros motores y las diferentes funcionalidades de nuestro quad.  
+Es una de las pestañas mas importante de la configuración de nuestro quad.  
 
 <img src="https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/main/images/configuracion.PNG">
 
+_EJemplo: Configuración usada en una controladora MAMBA STM32F722S_
 
-
+#### Funcionalidades ESC/Motor:
 La opción **MOTOR_STOP** controla si los motores girarán o no al armar el quad.  
 Si los motores giran al armar el quad y tenemos esta opción deshabilitada seguramente tendremos habilitado el **AIR MODE**.
 Por defecto el **Motor Idle Throttle value [percent]** tiene un valor de 4.5, esto es el porcentaje al que giraran los motores al armar.
+Por defecto el numero de **Polos del motor** viene como 14. Estos son el numero de imanes que tiene tu campana de motor.
+En tinnys a veces este numero se reduce ya que los motores son mas pequeños. Rondan sobre 12.
+Lo mejor es asegurarse mirando una campana de nuestros motores.
 
-#### DShot settings:  
+#### Configuración del sistema y DShot settings:  
 
-Consulta en las especificaciones de tus ESCs o 4in1 que DSHOT tiene antes de aplicar cualquier corrección. 
-Se puede habilitar el bidirectional con el switch de debajo de la imagen del quad.
+El **Acelerómetro** es el sensor que nos ayuda a controlar la inclinazión del quad.  
+En caso de volar en **Angle Mode** o **Horizon Mode** necesitas tener activado este sensor. 
+Revisa la pantalla de Ajustes para ver como calibrar el quad si usas esos modos.  
+Normalmente las controladoras de vuelo no trae equipado un Barómetro ni un Magnetómetro.  
+Lo mejor en estos casos es **Desactivar** estos dos sensores.  
+
+Las frequencias del sersor Giro y del PID son importantisimas para volar.  
+Estas estan condicionadas a el tipo de controladora de vuelo tengamos, una F7 irá mejor que una F4.  
+Si tienes poca experiencia es mejor dejar los ajustes por defecto.  
+Consulta en las especificaciones de tus ESCs o 4in1 que DSHOT tiene antes de aplicar cualquier corrección.  
+Se puede habilitar el bidirectional con el switch **DShot Bidirectional**.  
+También hay que consultar en las especificaciones de tus ESCs o 4in1 si lo soporta.  
 
 - Con el filtro rpm habilitado   
-dshot300 -> 4k max pidloop  
-dshot600 -> 8k max pidloop  
+dshot300 -> 4k max pidloop (Recomendable para controladoras F4)  
+dshot600 -> 8k max pidloop (Recomendable para controladoras F7)   
 
 - Usando el bidirectional y con el filtro rpm habilitados:     
 
-dshot150 -> 2k max pidloop  
-dshot300 -> 4k max pidloop (Recomendable para controladoras F4)    
-dshot600 -> 8k max pidloop (Recomendable para controladoras F7)   
+dshot150 -> 2k max pidloop   
+dshot300 -> 4k max pidloop (Recomendable para controladoras F4)     
+dshot600 -> 8k max pidloop (Recomendable para controladoras F7)    
 
 - Sin usar el bidirectional y con el filtro rpm habilitados:    
 
-dshot150 -> 4k max pidloop   
-dshot300 -> 8k max pidlopp    
+dshot150 -> 4k max pidloop (Recomendable para controladoras F4)   
+dshot300 -> 8k max pidlopp (Recomendable para controladoras F7)  
 dshot600 -> up to 16k max pidloop (8k es el maximo que se puede configurar en la versión 4.2)  
 
 Para la actualización de firmware de los ESC o 4in1 visita:
 
 [Repertorio ESC and 4in1] https://github.com/AirbenderFPV
+
+#### Armado y Aliniación de Placa y Sensores:
+
+Si tenemos el Acelerómetro activado, habilitaremos la selección del Ángulo de armado máximo.  
+Personalmente recomiendo el valor **180º** para poder armar el quad bajo cualquier inclinación.  
+
+En cuanto a la aliniación de la placa, si la montamos de forma que la flecha dibujada en la controladora de vuelo apunte hacia delante, todos los valores tienen que ser cero.
+
+
+<img src="https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/main/images/configuracion.PNG">
+
+#### Receptor: 
+
+En este subapartado podemos configurar como será la comunicación
 
 ### Pantalla de Energía y Batería
 
