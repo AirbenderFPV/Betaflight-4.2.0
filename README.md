@@ -38,6 +38,7 @@ El puerto **USB VCP** para la comunicación por el puerto usb.
 El puerto **UART1** para  la comunicación Rx. Comunicación con nuestra emisora.  
 El puerto **UART3** para la comunicación con el VTX a través de SmartAudio.  
 El puerto **UART4** esta activado pero sin uso.  
+Este ultimo tendria que estar deshabilitado, si no usamos el UART es mejor deshabilitarlo.
 
 ### Pantalla de Ajustes  
 
@@ -189,8 +190,7 @@ Para mas información de ajustes rapidos recomendados visita:
 
 Esta pantalla nos ayuda a ver las señales de nuestra emisora.
 Si tenemos la emisora encendida y el quad conectado al ordenador y no varian los valores, seguramente tengamos que alimentar el quad con una LiPo.  
-Recordad tener siempre la antena del VTX conectada antes de enchufar una LiPo y no estar mucho rato con el quad parado y la LiPo alimentando.  
-Podríais sobrecalentar el sitema e incluso quemar el VTX.
+Recordad tener siempre la antena del VTX conectada antes de enchufar una LiPo y no estar mucho rato con el quad parado y la LiPo alimentando.**Podríais sobrecalentar el sitema e incluso quemar el VTX.**
 
 <img src="https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/main/images/receptor.PNG">
 
