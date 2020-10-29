@@ -1,6 +1,6 @@
 # Betaflight v4.2.x
 
-<img src="https://raw.githubusercontent.com/wiki/betaflight/betaflight/images/betaflight/bf_logo.png" alt="BetaFlight">
+<img src="https://raw.githubusercontent.com/wiki/betaflight/betaflight/images/betaflight/bf_logo.png">
 
 En este repositorio iré actualizando las mejoras de **Betaflight 4.2.x** así como las configuraciones recomendadas.  
 El uso de esta información queda bajo la responsabilidad de cada usuario y siendo consciente del quad que tiene.  
@@ -98,7 +98,7 @@ Personalmente recomiendo el valor **180º** para poder armar el quad bajo cualqu
 En cuanto a la aliniación de la placa, si la montamos de forma que la flecha dibujada en la controladora de vuelo apunte hacia delante, todos los valores tienen que ser cero.
 
 
-<img src="https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/main/images/configuracion.PNG">
+<img src="https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/main/images/configuracion2.PNG">
 
 #### Receptor: 
 
@@ -132,6 +132,8 @@ Para ajustes y calibraciones del sensor de voltaje, de corriente y mucha mas inf
 
 ### Pantalla de Modo de Seguridad
 
+(Tenemos que habilitar el modo experto en la parte superior derecha de Betaflight Configurator)
+
 ### Pantalla de Ajustar PID
 
 #### PID  
@@ -143,7 +145,20 @@ Podemos editar el perfil de cada palanca editando los valores para respuestas ma
 Si tienes poca experiencia es mejor dejar los ajustes por defecto.  
 
 #### FILTROS  
-Esta pestaña nos ayuda a filtrar las señales de nuestro quad, si tienes poca experiencia es mejor dejar los ajustes por defecto.   
+Esta pestaña nos ayuda a filtrar las señales de nuestro quad, si tienes poca experiencia es mejor dejar los ajustes por defecto.  
+
+<img src="https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/main/images/Filtros.PNG">
+
+Es muy recomendable en esta pestaña editar los valores del **Filtro Notch Dinámico** situado en la parte inferior izquierda.  
+Los valores recomdendados y provados por Joshua Bradwell son los que aparecen en la imagen.  
+Giro Filtro Notch Dinámico Ancho = 0  
+Giro Filtro Notch Dinámico Q =250   
+Giro Filtro Notch Dinámico Min =70   
+Giro Filtro Notch Dinámico Max =350   
+
+Además, los valores multiplicadores **Filtro Giro** y **Filtro D Term** se pueden mover un poco para filtrar menos la señal que enviamos a nuestro quad y tener una respuesta mas rapida. Hay que mover los dos por igual.  
+
+Personalmente he provado el valor **1.2 en ambos**, si provais alguno y no os convence volver a el valor por defecto 1 en ambos.  
 
 #### Ajustes rapidos recomendados en Betaflight 4.2.x
 
@@ -251,7 +266,11 @@ set rc_smoothing_auto_smoothness = 10
 
 ### Pantalla de Correcciones
 
+(Tenemos que habilitar el modo experto en la parte superior derecha de Betaflight Configurator)
+
 ### Pantalla de Servos
+
+(Tenemos que habilitar el modo experto en la parte superior derecha de Betaflight Configurator)
 
 ### Pantalla de Motores
 
@@ -261,7 +280,11 @@ set rc_smoothing_auto_smoothness = 10
 
 ### Pantalla de Sensores
 
+(Tenemos que habilitar el modo experto en la parte superior derecha de Betaflight Configurator)
+
 ### Pantalla de Registro Conectado
+
+(Tenemos que habilitar el modo experto en la parte superior derecha de Betaflight Configurator)
 
 ### Pantalla de Caja Negra
 
