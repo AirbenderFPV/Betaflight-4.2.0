@@ -35,16 +35,17 @@ El TX3 en la placa controladora sera el puerto Uart3 en Betaflight.
 
 En esta pantalla podremos calibrar, restaurar o hacer una copia de seguridad nuestro quad.
 
-<img tabindex="0" src="https://gblobscdn.gitbook.com/assets%2F-LwhKv1QgSojdFnhI2Zd%2F-M39XWCO6Ny48pDY1Z4x%2F-M3A1ouj-9w7G2LunYtO%2Fimage.png?alt=media&amp;token=191411f0-7456-40bd-9222-b0f917cc59cf" loading="lazy" class="image-52799b3c" style="cursor: zoom-in;">
+
 
 ### Pantalla de Configuración  
 
-<img class=" wp-image-2717 alignright" src="https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/main/images/configuracion.PNG">
-
-
 En esta pantalla podremos configurar el protocolo que controlara nuestros motores y las diferentes funcionalidades de nuestro quad.
 
-<img alt="2. Betaflight Quick Start Guide - brainfpv" class="n3VNCb" src="https://www.brainfpv.com/wp-content/uploads/2018/01/bf_configuration.png" data-noaft="1" jsname="HiaYvf" jsaction="load:XAeZkd;" style="width: 585px; height: 416.812px; margin: 0px;">
+<img class=" wp-image-2717 alignright" src="https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/main/images/configuracion.PNG">
+
+<img src="https://raw.githubusercontent.com/AirbenderFPV/Betaflight-4.2.0/main/images/configuracion.PNG">
+
+
 
 La opción **MOTOR_STOP** controla si los motores girarán o no al armar el quad.  
 Si los motores giran al armar el quad y tenemos esta opción deshabilitada seguramente tendremos habilitado el **AIR MODE**.
