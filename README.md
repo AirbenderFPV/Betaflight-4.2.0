@@ -130,7 +130,7 @@ Es muy recomendable en esta pestaña editar los valores del **Filtro Notch Diná
 Los valores recomdendados y provados por Joshua Bradwell son los que aparecen en la imagen.  
 Giro Filtro Notch Dinámico Ancho = 0  
 Giro Filtro Notch Dinámico Q =250   
-Giro Filtro Notch Dinámico Min =70   
+Giro Filtro Notch Dinámico Min =90  
 Giro Filtro Notch Dinámico Max =350   
 
 Además, los valores multiplicadores **Filtro Giro** y **Filtro D Term** se pueden mover un poco para filtrar menos la señal que enviamos a nuestro quad y tener una respuesta mas rapida. Hay que mover los dos por igual.  
