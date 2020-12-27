@@ -176,5 +176,8 @@ https://github.com/betaflight/blackbox-log-viewer
  
 [Midronedecarreras] https://www.midronedecarreras.com/betaflight/#Descarga_el_Configurador_BLHeli_suite_32  
 
+[Multicoptero X] http://www.multicopterox.es/configuracion-betaflight-matek-f405/#ESC_beacon_configuration
+
 [Airbender_FPV] https://www.instagram.com/airbender_fpv/
+
 
